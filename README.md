@@ -1,21 +1,20 @@
 🌐 Portfolio Website
-
-This is my full-stack developer portfolio, designed to showcase my technical skills, creativity, and problem-solving approach. It’s more than just a static site—I'm actively enhancing it with backend features and deploying it across multiple platforms to demonstrate real-world hosting and DevOps capabilities.
+This is my full-stack developer portfolio, built to showcase not just my technical skills but also my creativity, problem-solving mindset, and DevOps capabilities. It’s more than a static site—I'm actively enhancing it with backend features, CI/CD pipelines, and multi-platform deployment strategies.
 
 🚀 Features
-
-- Responsive, mobile-first design using HTML, CSS, and Bootstrap
-- Flask backend with dynamic features like a contact form and visitor counter
-- CI/CD pipeline using Google Cloud Build and Artifact Registry
-- Deployed on Google Cloud Run with a custom domain
-- Multi-platform hosting exploration
+- ✅ Responsive, mobile-first design using HTML, CSS, and Bootstrap
+- 🧠 Flask backend with dynamic features like a contact form and visitor counter
+- 🔁 CI/CD pipeline using Google Cloud Build and Artifact Registry
+- 🌍 Deployed on Google Cloud Run with a custom domain
+- 🌐 Exploring multi-platform hosting (e.g., GitHub Pages, Cloud Run, Netlify)
 
 🛠️ Tech Stack
-
-- Frontend: HTML5, CSS3, Bootstrap
-- Backend: Python, Flask
-- Cloud: Google Cloud Platform (Cloud Run, Cloud Build)
-- Version Control: Git & GitHub
+| Layer | Technologies | 
+| Frontend | HTML5, CSS3, Bootstrap | 
+| Backend | Python, Flask | 
+| Cloud | Google Cloud Platform (Cloud Run, Cloud Build) | 
+| DevOps | CI/CD, Artifact Registry | 
+| Versioning | Git & GitHub | 
 
 📦 Installation
 
