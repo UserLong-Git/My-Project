@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My Personal Portfolio</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css?v=19" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col-sm-6">
+          <h1>My Portfolio Website</h1>
+        </div>
+        <div class="col-sm-6 text-right">
+          <nav>
+            <a href="about.html">About&nbsp;Me</a>
+            <a href="education.html">Education</a>
+            <a href="experience.html">Experience</a>
+            <a href="projects.html">Projects</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="jumbotron">
+    <div class="hero-wrapper">
+      <img src="Website-Image.jpg" alt="hero image" class="hero-img">
+      <div class="mobile-bg-box">
+      <ul class="jumbotron-list">
+        <li>Aspiring Cloud Engineer/Architect</li>
+        <li>AWS Cloud Practitioner</li>
+        <li>Google Cloud Digital Leader</li>
+        <li>CodeCademy Python 3</li>
+        <li>Hands on Project Builder</li>
+        <li>HTML and CSS Developer</li>
+        <li>Full Stack Intergration</li>
+      </ul>
+    </div>
+  </section>
+  <main class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h2 class="mb-4 text-center">Get in Touch</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea name="message" class="form-control" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Send Message</button>
+        </form>
+     </div>
+    </div>
+
+  <h3 class="text-center mt-5 mb-5" style="margin-top: 80px;">Welcome to my first Portfolio Website</h3>
+
+  <p>I'm very excited to display my first Portfolio Website. I'd like to credit my mentors at <em>CodeCademy</em>, and
+    <a href="https://www.goodreads.com/author/show/135171.Jon_Duckett" target="_blank"><em>Jon Duckett</em> </a>, who
+    wrote a very helpful book called: <a href="https://www.goodreads.com/book/show/10361330-html-and-css"
+      target="_blank" rel="noopener noreferrer"><cite>HTML & CSS Design and Build Websites</cite> </a>. Both sources
+    have been extremely helpful in my learning with building this website.
+  </p>
+
+  <p>First off CodeCademy has a very diverse range of education paths, with affiliations with the biggest tech companies
+    in the industry.</p>
+
+  <p>I originally followed the advice of Jon Duckett by using <a href="https://notepad-plus-plus.org/downloads/"
+      target="_blank"><em>Notepad</em> </a> and linking it to a <i>.html</i> file to simulate a text editor, and project
+    window setting. I later migrated my code to <a href="https://code.visualstudio.com/" target="_blank"><em>Visual
+        Studio Code</em> </a> as advised by CodeCademy. This is where I staged everything before committing to a Domain
+    Name to optimise annual subscription cost fees, and to avoid code alteration complications.</p>
+
+  <p>As advised from my many mentors, I need to show my practical skills to accompany my certifications. <a
+      href="https://www.cloudskillsboost.google" target="_blank"><em>Google Skills Boost</em> </a>, <a
+      href="https://skillbuilder.aws" target="_blank"><em>AWS Skill Builder</em> </a>, <a
+      href="https://www.codecademy.com" target="_blank"><em>CodeCademy</em> </a>, and others provide many practical
+    exercises or labs, which I have completed hundreds collectively. My objective for building independent projects is
+    to validate a fusion of my theoretical and practical learning capabilities.</p>
+
+  <p>Before diving into my first cloud project: Hosting a Static Website on AWS, I decided to build this portfolio as a
+    foundation. It felt more meaningful to showcase my story through my own design. Instead of using a default site, I
+    decided to take a slight, fun, creative detour, and here we are.</p>
+
+  <p>I like to look at the whole picture of everything in all of my research. So I see everything as relevant and
+    another building block of education and experience. I don't see the point of learning the Back End without learning
+    about the Front End, as both bring clarity to each other.</p>
+
+  <p>Although Static Websites have no Back End relation directly, they resemble the finished product of Front End
+    development. I will use embellishment tags throughout where I see appropriate.</p>
+
+  <p>This is going to be a gradual process as I'm starting with HTML to structure my pages. I will later proceed to
+    style my pages with CSS as the weeks progress. I really appreciate your interest in my website, and I hope to hear
+    from you soon.</p>
+  
+</main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://www.cloudskillsboost.google">Google Skill Boost Profile</a>
+        <a href="https://www.credly.com/users/daniel-long.9df6f92f">Credly Profile</a>
+        <a href="https://www.linkedin.com/in/daniel-long-770b5ba6">LinkedIn Profile</a>
+        <a href="mailto:daniellong.8790@gmail.com">Email Daniel</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Daniel Long</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const form = e.target;
+      const formData = {
+        name: form.name.value,
+        email: form.email.value,
+        message: form.message.value
+      };
+
+      try {
+        const res = await fetch("https://contact-api-304633597083.europe-west1.run.app/contact", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData)
+        });
+
+        const result = await res.json();
+        alert(result.status || "Message sent!");
+      } catch (err) {
+        alert("Something went wrong: " + err.message);
+      }
+    });
+  </script>
+</body>
+
+</html>
