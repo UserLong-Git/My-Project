@@ -1,4 +1,7 @@
-steps:
+ steps:
   - name: 'ubuntu'
     entrypoint: 'echo'
     args: ['✅ Cloud Build trigger is working!']
+
+options:
+  logging: CLOUD_LOGGING_ONLY
